@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/install",
+    "resources": {
+        "body": [
+            {
+                "type": "script",
+                "src": "./src/app.js"
+            }
+        ]
+    },
+    "options": {
+        "properties":{
+            "google_tag_id":{
+                "order": 0,
+                "title": "Google Tag Id",
+                "placeholder": "GTM-ABCDE12",
+                "type": "string",
+                "required": true
+            }
+        }
+    }
+}
