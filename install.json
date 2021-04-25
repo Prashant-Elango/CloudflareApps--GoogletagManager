@@ -16,6 +16,17 @@
                 "placeholder": "GTM-ABCDE12",
                 "type": "string",
                 "required": true
+            },
+            "exclude_url":{
+                "order": 1,
+                "title": "Exclude pages and domain from installing Google Tags",
+                "description": "Sometime google tag can cause problem in certain pages such as wordpress admnin's Add Post which causes a blank screen.  Url or Regex",
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "title":"Exclude page or domain"
+                }
+
             }
         }
     }
